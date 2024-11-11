@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f4ff; /* Light lavender background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 3px solid black; /* Black border for container */
+}
+
+h1 {
+    text-align: center;
+    color: #9b4dca; /* Purple color for heading */
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.post-form, .comment-form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 2px solid #6a3a91; /* Purple border */
+    border-radius: 8px;
+    background-color: #f4ebfc; /* Light purple background for inputs */
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #9b4dca; /* Darker purple on focus */
+    background-color: #e3d2f7; /* Slightly darker purple when focused */
+}
+
+input[type="submit"] {
+    background-color: #9b4dca; /* Purple button background */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #7e3f8c; /* Darker purple on hover */
+    transform: translateY(-2px);
+}
+
+.post, .comment {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black; /* Black border for posts/comments */
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.post h2, .comment h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.comment p {
+    color: #6a3a91; /* Purple text for comments */
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.post p {
+    color: #444;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.comment {
+    margin-top: 15px;
+    margin-left: 20px;
+    border-left: 3px solid #9b4dca; /* Purple left border for comments */
+    padding-left: 20px;
+}
+
+.post-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post-icons > span {
+    margin-right: 15px;
+    cursor: pointer;
+    color: #9b4dca;
+    transition: color 0.3s ease;
+}
+
+.post-icons > span:hover {
+    color: #7e3f8c; /* Darker purple on hover */
+}
+
+.comment-form, .post-form input[type="text"], .post-form textarea {
+    border-radius: 12px;
+}
