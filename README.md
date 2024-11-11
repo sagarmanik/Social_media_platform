@@ -1,4 +1,4 @@
-# Social_media_platform
+# Social_media_platform By Sagar Manik
 Table of Contents
 Installation
 Frontend Setup
