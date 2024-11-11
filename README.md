@@ -39,3 +39,8 @@ AFTER THAT RUN THE BACKEND WITH REACT ON PORT http://localhost:3000
 
 FOR MORE : EMAIL;sagarmanik526@gmail.com
 
+![Screenshot 2024-11-11 154127](https://github.com/user-attachments/assets/c4717649-94ec-461e-a9ea-adc3bbf435f0)
+
+![Screenshot 2024-11-11 154112](https://github.com/user-attachments/assets/e0d8e6ad-d7a7-4a83-b903-5e0491478c52)
+
+
